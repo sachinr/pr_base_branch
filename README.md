@@ -3,6 +3,9 @@ pr_base_branch
 
 Chrome extension to show a PR's base branch on the /pulls page. 
 
+![image](https://cloud.githubusercontent.com/assets/700173/3024034/16460d8e-dff2-11e3-8a61-21060f0b42fe.png)
+
+
 ## Installation
 
 * Clone repo
