@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "GitHub PR Base Branch",
+  "description": "View Pull Request Base branch.",
+  "version": "0.0.1",
+  "author": "Sachin Ranchod",
+
+  "permissions": [  ],
+  "content_scripts": [{
+    "matches": ["https://github.com/*/pull*"],
+
+    "css": ["styles.css"],
+    "js": [
+      "lib/jquery-1.11.1.min.js",
+      "lib/base64.js",
+      "src/github.js",
+      "src/extension.js"
+    ],
+    "run_at" : "document_end"
+  }]
+}
